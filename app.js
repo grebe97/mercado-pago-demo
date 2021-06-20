@@ -41,7 +41,7 @@ app.post('/webhook', function (req, res) {
 
 app.get('/detail', function (req, res) {
     var preference = {
-        external_reference: "alexis.grebe.97@gmail.com",
+        external_reference: "alexis_grebe_97@hotmail.com.ar",
         items: [
           {
             id: 1234,
