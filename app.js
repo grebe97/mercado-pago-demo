@@ -3,7 +3,7 @@ var exphbs  = require('express-handlebars');
 var bodyParser = require('body-parser')
 var port = process.env.PORT || 3000;
 
-const URL_PROD = "https://b370abc72beb.ngrok.io";
+const URL_PROD = "https://mercado-pago-demo.herokuapp.com";
 
 var app = express();
 var mercadopago = require('mercadopago');
