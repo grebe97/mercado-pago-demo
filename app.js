@@ -4,6 +4,7 @@ var bodyParser = require('body-parser')
 var port = process.env.PORT || 3000;
 
 const URL_PROD = "https://mercado-pago-demo.herokuapp.com";
+//const URL_PROD = "https://09959d0744ca.ngrok.io";
 
 var app = express();
 var mercadopago = require('mercadopago');
@@ -41,7 +42,7 @@ app.post('/webhook', function (req, res) {
 
 app.get('/detail', function (req, res) {
     var preference = {
-        external_reference: "alexis_grebe_97@hotmail.com.ar",
+        external_reference: "alexis_grebe_97@hotmail.com",
         items: [
           {
             id: 1234,
